@@ -1,0 +1,201 @@
+:root {
+    --primary: #0f4c81;
+    --secondary: #00a86b;
+    --light: #f5f7fa;
+    --dark: #1f2937;
+    --text: #4b5563;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--light);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: white;
+    padding: 1rem 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 15px rgba(0,0,0,.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    color: var(--primary);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 500;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: var(--secondary);
+}
+
+main {
+    flex: 1;
+}
+
+.hero {
+    background: linear-gradient(
+        135deg,
+        var(--primary),
+        #1565c0
+    );
+
+    color: white;
+
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.hero button {
+    margin-top: 30px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 50px;
+    background: var(--secondary);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.hero button:hover {
+    transform: translateY(-3px);
+}
+
+.section {
+    padding: 80px 10%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card h3 {
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.info-box {
+    background: white;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.contact-list li {
+    margin-bottom: 15px;
+}
+
+.contact-list a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.contact-list a:hover {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
+footer {
+    background: var(--primary);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    margin-top: 15px;
+    opacity: .8;
+}
+
+@media(max-width:768px){
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
