@@ -39,6 +39,13 @@ header {
     font-weight: 700;
 }
 
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
 nav ul {
     display: flex;
     list-style: none;

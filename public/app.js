@@ -68,33 +68,48 @@ function cargarSeccion(seccion) {
                     <div class="cards">
 
                         <div class="card">
-                            <h3>Evaluaciones Médicas</h3>
-                            <p>Exámenes preocupacionales, periódicos y de egreso.</p>
+                            <h3>Gestión de Riesgos Laborales</h3>
+                            <p>Identificamos, evaluamos y controlamos los riesgos presentes en su empresa mediante matrices IPER, inspecciones de seguridad e investigación de accidentes.</p>
                         </div>
 
                         <div class="card">
-                            <h3>Capacitaciones</h3>
-                            <p>Programas de formación en seguridad y salud laboral.</p>
+                            <h3>Cumplimiento en Salud Ocupacional</h3>
+                            <p>Asesoramos en la elaboración e implementación de programas, conformación de comisiones y desarrollo de políticas y procedimientos requeridos por la normativa.</p>
                         </div>
 
                         <div class="card">
-                            <h3>Gestión de Riesgos</h3>
-                            <p>Identificación, evaluación y control de riesgos.</p>
+                            <h3>Ergonomía y Procedimientos Seguros</h3>
+                            <p>Realizamos evaluaciones ergonómicas básicas y elaboramos procedimientos seguros para promover ambientes de trabajo más seguros y eficientes.</p>
                         </div>
 
                         <div class="card">
-                            <h3>Inspecciones</h3>
-                            <p>Evaluaciones de condiciones y actos inseguros.</p>
+                            <h3>Capacitación en Salud y Seguridad Ocupacional</h3>
+                            <p>Brindamos capacitaciones y charlas preventivas adaptadas a las necesidades y actividades de cada organización.</p>
                         </div>
 
                         <div class="card">
-                            <h3>Planes de Emergencia</h3>
-                            <p>Diseño y actualización de protocolos de respuesta.</p>
+                            <h3>Preparación y Respuesta ante Emergencias</h3>
+                            <p>Elaboramos planes de emergencia, mapas de evacuación, capacitamos brigadas y desarrollamos simulacros para fortalecer la respuesta ante emergencias.</p>
                         </div>
 
                         <div class="card">
-                            <h3>Asesoría Técnica</h3>
-                            <p>Consultoría especializada para empresas.</p>
+                            <h3>Gestión Integral de Residuos</h3>
+                            <p>Desarrollamos programas de gestión de residuos y brindamos asesoría para el manejo adecuado de residuos peligrosos.</p>
+                        </div>
+
+                        <div class="card">
+                            <h3>Educación y Sensibilización Ambiental</h3>
+                            <p>Promovemos una cultura ambiental responsable mediante capacitaciones, campañas de reciclaje y actividades de sensibilización.</p>
+                        </div>
+
+                        <div class="card">
+                            <h3>Diagnóstico en Gestión Ambiental</h3>
+                            <p>Realizamos diagnósticos básicos para identificar oportunidades de mejora en el manejo de residuos y el cumplimiento ambiental.</p>
+                        </div>
+
+                        <div class="card">
+                            <h3>Atención de Órdenes Sanitarias</h3>
+                            <p>Brindamos acompañamiento técnico para atender órdenes sanitarias, definiendo acciones correctivas y dando seguimiento a su implementación hasta el cierre de hallazgos.</p>
                         </div>
 
                     </div>
