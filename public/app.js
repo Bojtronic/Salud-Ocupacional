@@ -182,15 +182,7 @@ function cargarSeccion(seccion) {
                             </li>
 
                             <li>
-                                📍 San José, Costa Rica
-                            </li>
-
-                            <li>
-                                <i class="fab fa-facebook"></i>
-                                <a href="https://www.facebook.com/LA_PAGINA_DE_FACEBOOK"
-                                target="_blank">
-                                    Síguenos en Facebook
-                                </a>
+                                📍 Los chiles, Alajuela, Costa Rica
                             </li>
 
                         </ul>
