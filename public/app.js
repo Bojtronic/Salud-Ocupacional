@@ -19,6 +19,9 @@ function cargarSeccion(seccion) {
                     <button onclick="cargarSeccion('contacto')">
                         Solicitar Información
                     </button>
+
+                    <img class="main-banner" src="img/principal.jpeg" alt="Salud Ocupacional">
+
                 </section>
 
                 <section class="section">
@@ -64,6 +67,8 @@ function cargarSeccion(seccion) {
                     <div class="section-title">
                         <h2>Nuestros Servicios</h2>
                     </div>
+
+                    <img class="service-banner" src="img/servicios.jpeg" alt="Servicios">
 
                     <div class="cards">
 
@@ -161,16 +166,33 @@ function cargarSeccion(seccion) {
                         <br>
 
                         <ul class="contact-list">
-                            <li>📧 info@so.com</li>
-                            <li>📞 +506 8888-8888</li>
-                            <li>📍 San José, Costa Rica</li>
+
+                            <li>
+                                📧
+                                <a href="mailto:anthonycarballo406@gmail.com">
+                                    anthonycarballo406@gmail.com
+                                </a>
+                            </li>
+
+                            <li>
+                                📞
+                                <a href="tel:+50687562122">
+                                    +506 8756-2122
+                                </a>
+                            </li>
+
+                            <li>
+                                📍 San José, Costa Rica
+                            </li>
+
                             <li>
                                 <i class="fab fa-facebook"></i>
                                 <a href="https://www.facebook.com/LA_PAGINA_DE_FACEBOOK"
                                 target="_blank">
-                                Síguenos en Facebook
-                                </a>        
+                                    Síguenos en Facebook
+                                </a>
                             </li>
+
                         </ul>
 
                     </div>

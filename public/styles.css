@@ -46,6 +46,21 @@ header {
     cursor: pointer;
 }
 
+.main-banner {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.service-banner {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -108,6 +123,36 @@ main {
     transform: translateY(-3px);
 }
 
+.hero-image {
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0,0,0,.35);
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-overlay h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero-overlay p {
+    max-width: 800px;
+    font-size: 1.2rem;
+}
+
 .section {
     padding: 80px 10%;
 }
@@ -128,12 +173,23 @@ main {
     gap: 25px;
 }
 
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
 .card {
     background: white;
     border-radius: 16px;
     padding: 30px;
     box-shadow: 0 5px 20px rgba(0,0,0,.08);
     transition: .3s;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover {
@@ -145,9 +201,14 @@ main {
     margin-bottom: 15px;
 }
 
+.card p {
+    line-height: 1.7;
+}
+
 .info-box {
     background: white;
     max-width: 1000px;
+    width: 100%;
     margin: auto;
     border-radius: 16px;
     padding: 40px;
@@ -156,10 +217,16 @@ main {
 
 .contact-list {
     list-style: none;
+    width: 100%;
 }
 
 .contact-list li {
     margin-bottom: 15px;
+    line-height: 1.6;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .contact-list a {
@@ -190,19 +257,111 @@ footer h3 {
     opacity: .8;
 }
 
-@media(max-width:768px){
+@media (max-width: 1024px) {
+
+    .section {
+        padding: 60px 6%;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .service-banner {
+        max-height: 350px;
+    }
+
+    .main-banner {
+        max-height: 450px;
+    }
+
+}
+
+@media (max-width: 768px) {
 
     header {
         flex-direction: column;
         gap: 15px;
+        padding: 1rem;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
     }
 
     nav ul {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 1rem;
+    }
+
+    .section {
+        padding: 40px 5%;
+    }
+
+    .hero {
+        padding: 60px 5%;
     }
 
     .hero h1 {
         font-size: 2rem;
     }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .service-banner {
+        max-height: 250px;
+    }
+
+    .main-banner {
+        max-height: 450px;
+    }
+
+     .info-box {
+        padding: 25px;
+    }
+
+    .contact-list li {
+        font-size: 0.95rem;
+    }
+
 }
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 1.7rem;
+    }
+
+    .section-title h2 {
+        font-size: 1.6rem;
+    }
+
+    .card h3 {
+        font-size: 1.1rem;
+    }
+
+    .main-banner {
+        max-height: 300px;
+    }
+
+    .service-banner {
+        max-height: 180px;
+    }
+
+    .info-box {
+        padding: 20px;
+    }
+
+    .contact-list li {
+        font-size: 0.9rem;
+    }
+}
+
