@@ -20,6 +20,9 @@ function cargarSeccion(seccion) {
                         Solicitar Información
                     </button>
 
+                    <br>
+                    <br>
+
                     <img class="main-banner" src="img/principal.jpeg" alt="Salud Ocupacional">
 
                 </section>
@@ -136,8 +139,7 @@ function cargarSeccion(seccion) {
                         <br>
 
                         <p>
-                            Somos una organización dedicada a la promoción
-                            de la salud ocupacional y la prevención de riesgos laborales.
+                            Nacimos en la Zona Norte con la convicción de que cada trabajador merece regresar sano y seguro a su hogar, y que toda organización puede crecer de manera responsable con las personas y el ambiente. Nuestro propósito es acompañar a las empresas mediante soluciones prácticas, accesibles y de alta calidad en salud ocupacional y gestión ambiental, convirtiéndonos en un aliado estratégico para su cumplimiento, sostenibilidad y mejora continua.
                         </p>
 
                         <br>
