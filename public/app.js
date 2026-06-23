@@ -139,15 +139,15 @@ function cargarSeccion(seccion) {
                         <br>
 
                         <p>
-                            Nacimos en la Zona Norte con la convicción de que cada trabajador merece regresar sano y seguro a su hogar, y que toda organización puede crecer de manera responsable con las personas y el ambiente. Nuestro propósito es acompañar a las empresas mediante soluciones prácticas, accesibles y de alta calidad en salud ocupacional y gestión ambiental, convirtiéndonos en un aliado estratégico para su cumplimiento, sostenibilidad y mejora continua.
+                            Somos una empresa de consultoría especializada en salud ocupacional, seguridad laboral y gestión ambiental, comprometida con el bienestar de las personas y el desarrollo sostenible de las organizaciones. Brindamos asesoría técnica, capacitación y soluciones integrales que permiten a las empresas cumplir con la normativa vigente, prevenir riesgos laborales y fortalecer su desempeño ambiental.
                         </p>
 
                         <br>
 
                         <p>
-                            Nuestro objetivo es apoyar a las empresas en la creación
-                            de entornos de trabajo seguros, saludables y productivos.
+                            Nos caracterizamos por ofrecer un servicio profesional, cercano y adaptado a las necesidades de cada cliente, convirtiéndonos en un aliado estratégico para la creación de entornos de trabajo seguros, saludables y productivos. Nuestro compromiso es aportar valor mediante soluciones prácticas, efectivas y orientadas a la mejora continua
                         </p>
+
 
                     </div>
 
@@ -171,20 +171,25 @@ function cargarSeccion(seccion) {
 
                             <li>
                                 📧
-                                <a href="mailto:anthonycarballo406@gmail.com">
-                                    anthonycarballo406@gmail.com
+                                <a href="mailto:asesoriainsora@outlook.com">
+                                    asesoriainsora@outlook.com
                                 </a>
                             </li>
 
                             <li>
-                                📞
-                                <a href="tel:+50687562122">
+                                <i class="fab fa-whatsapp whatsapp-icon"></i>
+
+                                <a
+                                    href="https://wa.me/50687562122?text=Hola,%20deseo%20recibir%20informaci%C3%B3n%20sobre%20sus%20servicios."
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
                                     +506 8756-2122
                                 </a>
                             </li>
 
                             <li>
-                                📍 Los chiles, Alajuela, Costa Rica
+                                📍 San José, Costa Rica
                             </li>
 
                         </ul>
